@@ -30,7 +30,7 @@ public class LoginPage {
 
 	public void navigateTo_HomePage() {
 		// value = ;
-		driver.get(configFileReader.getApplicationUrl());
+		driver.get("https://www.saucedemo.com");
 	}
 
 	public void enterPassword(String pass) {
